@@ -24,7 +24,7 @@ public class Anaform extends javax.swing.JFrame {
 
     /**
      * Creates new form Anaform
-     */
+     */ 
     Hesap2 hsp;
     private boolean esyardim,sendikakaydi,sendikaodenek;
     public Anaform() {
