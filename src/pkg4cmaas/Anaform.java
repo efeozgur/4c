@@ -113,6 +113,7 @@ public class Anaform extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("4C Maaş Hesaplama Motoru");
+        setBackground(new java.awt.Color(204, 255, 204));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -308,88 +309,88 @@ public class Anaform extends javax.swing.JFrame {
 
         jLabel10.setText("Sözleşme Tutarı ");
 
+        sozlesmeTutariTXT.setEditable(false);
         sozlesmeTutariTXT.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        sozlesmeTutariTXT.setEnabled(false);
 
         jLabel11.setText("Çocuk Yardımı");
 
+        cocukYardimiTxt.setEditable(false);
         cocukYardimiTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        cocukYardimiTxt.setEnabled(false);
 
         jLabel12.setText("Eş Yardımı");
 
+        esYardimiTxt.setEditable(false);
         esYardimiTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        esYardimiTxt.setEnabled(false);
 
         jLabel13.setText("AGI Tutarı");
 
+        agiTutariTxt.setEditable(false);
         agiTutariTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        agiTutariTxt.setEnabled(false);
 
         jLabel14.setText("Sendika Ödeneği");
 
+        sendikaOdenegiTxt.setEditable(false);
         sendikaOdenegiTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        sendikaOdenegiTxt.setEnabled(false);
 
         jLabel15.setText("Maaş Unsur Matrah");
 
+        maasUnsurMatrahTxt.setEditable(false);
         maasUnsurMatrahTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        maasUnsurMatrahTxt.setEnabled(false);
 
         jLabel16.setText("SGK Matrahı");
 
+        sgkMatrahTxt.setEditable(false);
         sgkMatrahTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        sgkMatrahTxt.setEnabled(false);
 
         jLabel17.setText("SGK İşçi %14");
 
+        sgkIsciTxt.setEditable(false);
         sgkIsciTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        sgkIsciTxt.setEnabled(false);
 
         jLabel18.setText("SGK İşveren %20.5");
 
+        sgkIsverenTxt.setEditable(false);
         sgkIsverenTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        sgkIsverenTxt.setEnabled(false);
 
         jLabel19.setText("Ek Ödeme");
 
+        ekOdemeTxt.setEditable(false);
         ekOdemeTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        ekOdemeTxt.setEnabled(false);
 
         jLabel20.setText("Fazla Mesai");
 
+        fazlaMesaiTxtG.setEditable(false);
         fazlaMesaiTxtG.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        fazlaMesaiTxtG.setEnabled(false);
 
         jLabel21.setText("Sendika Aidatı");
 
+        sendikaAidatiTxt.setEditable(false);
         sendikaAidatiTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        sendikaAidatiTxt.setEnabled(false);
 
         jLabel22.setText("Bireysel Emeklilik");
 
+        bireyselEmeklilikTxt.setEditable(false);
         bireyselEmeklilikTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        bireyselEmeklilikTxt.setEnabled(false);
 
         jLabel23.setText("Gelir Vergisi Matrah");
 
+        gelirVergisiMatrahTxt.setEditable(false);
         gelirVergisiMatrahTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        gelirVergisiMatrahTxt.setEnabled(false);
 
         jLabel24.setText("Gelir Vergisi");
 
+        gelirVergisiTxt.setEditable(false);
         gelirVergisiTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        gelirVergisiTxt.setEnabled(false);
 
         jLabel25.setText("Damga Vergisi Matrah");
 
+        damgaVergisiMatrahTxt.setEditable(false);
         damgaVergisiMatrahTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        damgaVergisiMatrahTxt.setEnabled(false);
 
         jLabel26.setText("Damga Vergisi");
 
+        damgaVergisiTxt.setEditable(false);
         damgaVergisiTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        damgaVergisiTxt.setEnabled(false);
 
         jLabel27.setText("Kesintiler Toplamı");
 
