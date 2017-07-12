@@ -631,6 +631,9 @@ public class Anaform extends javax.swing.JFrame {
         if ((medeniDurumCmb.getSelectedIndex()==0) || (medeniDurumCmb.getSelectedIndex()==1) || (medeniDurumCmb.getSelectedIndex()==7)) {
             altiYasAltiCmb.setSelectedIndex(0);
             altiYasUstuCmb.setSelectedItem(0);
+        }
+        
+        if (medeniDurumCmb.getSelectedIndex()==0) {
             esYardimiCMB.setSelectedIndex(1);
         }
 
@@ -712,8 +715,11 @@ public class Anaform extends javax.swing.JFrame {
             if ((medeniDurumCmb.getSelectedIndex()==0) || (medeniDurumCmb.getSelectedIndex()==1) || (medeniDurumCmb.getSelectedIndex()==7)) {
                 altiYasAltiCmb.setSelectedIndex(0);
                 altiYasUstuCmb.setSelectedItem(0);
-                esYardimiCMB.setSelectedIndex(1);
             }
+
+            if (medeniDurumCmb.getSelectedIndex()==0) {
+                esYardimiCMB.setSelectedIndex(1);
+            }            
             
             if (adsoyadTxt.getText().isEmpty()==false) 
             {           
