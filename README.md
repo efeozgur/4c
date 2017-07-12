@@ -1,0 +1,2 @@
+# 4c
+maaş programım
