@@ -26,7 +26,7 @@ public class Main {
         frm.setResizable(false);
         
         frm.setLocation(((int)genislik/2)-(frm.getWidth()/2), ((int) yukseklik/2)-(frm.getHeight()/2));
-        System.out.println(frm.getLocation());
+
         
         frm.setVisible(true); 
     }

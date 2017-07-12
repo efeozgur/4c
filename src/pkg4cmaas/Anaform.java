@@ -678,8 +678,7 @@ public class Anaform extends javax.swing.JFrame {
         kesintilerToplamiTxt.setText(String.valueOf(df.format(hsp.getKesintilerToplami())));
         odemelerToplamiTxt.setText(String.valueOf(df.format(hsp.getOdemelerToplami())));       
         netOdenenTxt.setText(String.valueOf(df.format(hsp.getNetOdenen())));
-        System.out.println(df.format(hsp.getNetOdenen()));
-        
+
         
         
         
