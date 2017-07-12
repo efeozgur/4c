@@ -628,6 +628,12 @@ public class Anaform extends javax.swing.JFrame {
     }//GEN-LAST:event_medeniDurumCmbActionPerformed
 
     private void hesaplaBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hesaplaBtnActionPerformed
+        if ((medeniDurumCmb.getSelectedIndex()==0) || (medeniDurumCmb.getSelectedIndex()==1) || (medeniDurumCmb.getSelectedIndex()==7)) {
+            altiYasAltiCmb.setSelectedIndex(0);
+            altiYasUstuCmb.setSelectedItem(0);
+            esYardimiCMB.setSelectedIndex(1);
+        }
+
         DecimalFormat df = new DecimalFormat("#.##");
         // SETLEMELER
         
@@ -703,6 +709,12 @@ public class Anaform extends javax.swing.JFrame {
 
     private void kaydetBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kaydetBtnActionPerformed
         try {
+            if ((medeniDurumCmb.getSelectedIndex()==0) || (medeniDurumCmb.getSelectedIndex()==1) || (medeniDurumCmb.getSelectedIndex()==7)) {
+                altiYasAltiCmb.setSelectedIndex(0);
+                altiYasUstuCmb.setSelectedItem(0);
+                esYardimiCMB.setSelectedIndex(1);
+            }
+            
             if (adsoyadTxt.getText().isEmpty()==false) 
             {           
             Class.forName("com.mysql.jdbc.Driver");
