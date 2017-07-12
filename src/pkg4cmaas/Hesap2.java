@@ -5,7 +5,7 @@ public class Hesap2 {
    private double sozlesmeUcreti,cocukYardimi,esYardimi,sendikaOdenegi,esIstisna,cocukIstisna, ekOdeme,fazlaMesai,maasMatrahi,sgkMatrahi,sgkIsci,sgkIsveren, damgaVergisiMatrahi,damgaVergisi,odemelerToplami,kesintilerToplami,gelirVergisiMatrahi, gelirVergisi, agiMiktari,sendikaAidati,bireyselEmeklilik,okulGosterge,netOdenen; 
    private int altiYasKucuk, altiYasBuyuk; 
 
-    public int getAltiYasKucuk() {
+    public int getAltiYasKucuk  () {
         return altiYasKucuk;
     }
 
