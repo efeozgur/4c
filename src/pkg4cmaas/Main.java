@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Anaform frm = new Anaform();
         frm.setAlwaysOnTop(true);
-        frm.setVisible(true);
+        frm.setVisible(true); 
+        
+    //    burada kaldım
     }
 }
