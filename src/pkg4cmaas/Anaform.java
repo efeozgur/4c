@@ -15,6 +15,7 @@ import java.sql.Statement;
 import java.text.DecimalFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 /**
  *
@@ -70,6 +71,7 @@ public class Anaform extends javax.swing.JFrame {
         kaydetBtn = new javax.swing.JButton();
         gvOranCmb = new javax.swing.JComboBox<>();
         jLabel33 = new javax.swing.JLabel();
+        btnKapat = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         sozlesmeTutariTXT = new javax.swing.JTextField();
@@ -194,6 +196,13 @@ public class Anaform extends javax.swing.JFrame {
 
         jLabel33.setText("Gelir Vergisi Oranı");
 
+        btnKapat.setText("Kapat");
+        btnKapat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnKapatActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -242,7 +251,8 @@ public class Anaform extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(gvOranCmb, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(altiYasUstuCmb, 0, 323, Short.MAX_VALUE)
-                            .addComponent(altiYasAltiCmb, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(altiYasAltiCmb, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(btnKapat, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -304,7 +314,9 @@ public class Anaform extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(hesaplaBtn)
                     .addComponent(kaydetBtn))
-                .addGap(40, 40, 40))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnKapat)
+                .addContainerGap())
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -755,6 +767,11 @@ public class Anaform extends javax.swing.JFrame {
         adsoyadTxt.setForeground(Color.BLACK);
     }//GEN-LAST:event_adsoyadTxtMouseClicked
 
+    private void btnKapatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKapatActionPerformed
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        System.exit(0);
+    }//GEN-LAST:event_btnKapatActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -797,6 +814,7 @@ public class Anaform extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> altiYasUstuCmb;
     private javax.swing.JComboBox<String> bireyselEmeklilikCmb;
     private javax.swing.JTextField bireyselEmeklilikTxt;
+    private javax.swing.JButton btnKapat;
     private javax.swing.JTextField cocukYardimiTxt;
     private javax.swing.JTextField damgaVergisiMatrahTxt;
     private javax.swing.JTextField damgaVergisiTxt;

@@ -120,6 +120,7 @@
                               <Component id="altiYasAltiCmb" max="32767" attributes="0"/>
                           </Group>
                       </Group>
+                      <Component id="btnKapat" alignment="1" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -198,7 +199,9 @@
                       <Component id="hesaplaBtn" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="kaydetBtn" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnKapat" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -442,6 +445,14 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Gelir Vergisi Oran&#x131;"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnKapat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kapat"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKapatActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
